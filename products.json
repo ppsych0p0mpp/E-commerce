@@ -1,0 +1,548 @@
+[
+    {
+        "category": "Electric Guitars",
+        "products": [
+            {
+                "id": "1",
+                "Brand": "Yamaha",
+                "name": "pacifica tele",
+                "price": "$699",
+                "description": "A classic Fender electric guitar with a smooth tone.",
+                "image": "tele/APTELE6.png",
+                "stocks":"10"
+            },
+            {
+                "id": "2",
+                "Brand": "Yamaha",
+                "name": "yamaha SeP T",
+                "price": "$1200",
+                "description": "A high-quality electric guitar known for its rich sound.",
+                "image": "tele/ATELE5.png",
+                "stocks":"10"
+            },
+            {
+                "id": "3",
+                "Brand": "fender",
+                "name": "Fender tele",
+                "price": "$900",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE1.png",
+                "stocks":"10"
+            },
+            {
+                "id": "4",
+                "Brand": "fender",
+                "name": " GSX TELE f",
+                "price": "$1500",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE2.png",
+                "stocks":"10"
+            },
+            {
+                "id": "5",
+                "Brand": "Ibanez",
+                "name": "prestige RG",
+                "price": "$1300",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE3.png",
+                "stocks":"10"
+            },
+            {
+                "id": "6",
+                "Brand": "Ibanez",
+                "name": "Se ibanez RG",
+                "price": "$1800",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE4.png",
+                "stocks":"10"
+            },
+            {
+                "id": "7",
+                "Brand": "Rj guitars",
+                "name": "vibecaster",
+                "price": "$200",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE8.png",
+                "stocks":"10"
+            },
+            {
+                "id": "8",
+                "Brand": "Rj guitars",
+                "name": "Broadcaster",
+                "price": "$450",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE10.png",
+                "stocks":"10"
+            },
+            {
+                "id": "9",
+                "Brand": "fender",
+                "name": "Vintage A tele",
+                "price": "$1050",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/TELE20.png",
+                "stocks":"10"
+            },   
+            {
+                "id": "10",
+                "Brand": "Ibanez",
+                "name": "prestige RG",
+                "price": "$2000",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "tele/LTELE7.png",
+                "stocks":"10"
+            }
+            
+        ]
+    },
+    
+    {
+        "category": "stratocaster",
+        "products": [
+            {
+                "id": "11",
+                "Brand": "Yamaha",
+                "name": "pacifica strat",
+                "price": "$699",
+                "description": "A classic Fender electric guitar with a smooth tone.",
+                "image": "strat/yamaha.png",
+                "stocks":"10"
+            },
+            {
+                "id": "12",
+                "Brand": "Yamaha",
+                "name": "pacifica S strat",
+                "price": "$1200",
+                "description": "A high-quality electric guitar known for its rich sound.",
+                "image": "tele/sampleprod.png",
+                "stocks":"10"
+            },
+            {
+                "id": "13",
+                "Brand": "fender",
+                "name": "1970s F Strat",
+                "price": "$2000",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/1970s Fender Stratocaster.png",
+                "stocks":"10"
+            },
+            {
+                "id": "14",
+                "Brand": "fender",
+                "name": " Fingerboard",
+                "price": "$2300",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/Fender Stratocaster Fingerboard.png",
+                "stocks":"10"
+            },
+            {
+                "id": "15",
+                "Brand": "fender",
+                "name": "fender V strat ",
+                "price": "$1900",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/Fender Stratocaster.png",
+                "stocks":"10"
+            },
+            {
+                "id": "16",
+                "Brand": "Ibanez",
+                "name": "Ibanez GRX70QA",
+                "price": "$2500",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/Ibanez GRX70QA.png",
+                "stocks":"10"
+            },
+            {
+                "id": "17",
+                "Brand": "Ibanez",
+                "name": "RG GRG140",
+                "price": "$1500",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/Ibanez RG GRG140.png",
+                "stocks":"10"
+            },
+            {
+                "id": "18",
+                "Brand": "Rj guitars",
+                "name": "skycast strat",
+                "price": "$799",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/rjguitars.png",
+                "stocks":"10"
+            },
+            {
+                "id": "19",
+                "Brand": "Rj guitars",
+                "name": "skycast SE strat",
+                "price": "$850",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/rjguitars1.png",
+                "stocks":"10"
+            },
+            {
+                "id": "20",
+                "Brand": "Ibanez",
+                "name": "Ibanez RG",
+                "price": "$1600",
+                "description": "A popular guitar for rock and metal players.",
+                "image": "strat/ibanez.png",
+                "stocks":"10"
+            }
+        ]
+    },
+    {
+        "category": "Bass Guitars",
+        "products": [
+            {
+                "id": "21",
+                "Brand": "Yamaha",
+                "name": "Fender Jazz Bass guitar",
+                "price": "$999",
+                "description": "A popular bass guitar with a smooth and clear sound.",
+                "image": "bass/attitude limited 3.png",
+                "stocks":"10"
+            },
+            {
+                "id": "22",
+                "Brand": "Yamaha",
+                "name": "Music Man StingRay",
+                "price": "$1300",
+                "description": "A bass guitar known for its punchy tone.",
+                "image": "bass/bb serries.png",
+                "stocks":"10"
+            },
+            {
+                "id": "23",
+                "Brand": "fender",
+                "name": "Fender Precision Bass",
+                "price": "$950",
+                "description": "A distinctive bass with a unique shape and sound.",
+                "image": "bass/Fender Precision Bass.png",
+                "stocks":"10"
+            },
+            {
+                "id": "24",
+                "Brand": "fender",
+                "name": "4-string fender Precision",
+                "price": "$2500",
+                "description": "A distinctive bass with a unique shape and sound.",
+                "image": "bass/4-string fender pre.png",
+                "stocks":"10"
+            },
+            {
+                "id": "25",
+                "Brand": "Cort",
+                "name": "Cort Double bass Action",
+                "price": "$950",
+                "description": "A distinctive bass with a unique shape and sound.",
+                "image": "bass/Double bass Action.png",
+                "stocks":"10"
+            },
+            {
+                "id": "26",
+                "Brand": "Cort",
+                "name": "Cort Double bass Stagg",
+                "price": "$899",
+                "description": "A popular bass guitar with a smooth and clear sound.",
+                "image": "bass/Double bass Stagg.png",
+                "stocks":"10"
+            },
+            {
+                "id": "27",
+                "Brand": "Ibanez",
+                "name": "Ibanez Bass S Guitar",
+                "price": "$2300",
+                "description": "A bass guitar known for its punchy tone.",
+                "image": "bass/ibanez bass.png",
+                "stocks":"10"
+            },
+            {
+                "id": "28",
+                "Brand": "Ibanez",
+                "name": "Ibanez Bass gs Guitar",
+                "price": "$1500",
+                "description": "A distinctive bass with a unique shape and sound.",
+                "image": "bass/ibanez bass1.png",
+                "stocks":"10"
+            },
+            {
+                "id": "29",
+                "Brand": "Global",
+                "name": "Global B1 Bass guitar",
+                "price": "$2000",
+                "description": "A distinctive bass with a unique shape and sound.",
+                "image": "bass/Global B1 Bass.png",
+                "stocks":"10"
+            },
+            {
+                "id": "30",
+                "Brand": "Global",
+                "name": "Global B1 Special Edition",
+                "price": "$1750",
+                "description": "A distinctive bass with a unique shape and sound.",
+                "image": "bass/globalb1.png",
+                "stocks":"10"
+            }
+        ]
+    },
+    {
+        "category": "Acoustic Guitars",
+        "products": [
+            {
+                "id": "31",
+                "Brand": "D&D",
+                "name": "Martin D-28",
+                "price": "$2500",
+                "description": "JUNIOR SIZE ACOUSTIC GUITAR",
+                "image": "acoustic/D&D1.png",
+                "stocks":"10"
+            },
+            {
+                "id": "32",
+                "Brand": "Yamaha",
+                "name": "Yamaha C40M",
+                "price": "$1800",
+                "description": "A timeless acoustic guitar with a balanced tone.",
+                "image": "acoustic/Yamaha C40M.png",
+                "stocks":"10"
+            },
+            {
+                "id": "33",
+                "Brand": "Taylor",
+                "name": "Taylor 314ce",
+                "price": "$1500",
+                "description": "A versatile acoustic guitar with a bright sound.",
+                "image": "acoustic/Taylor 114E.png",
+                "stocks":"10"
+            },
+            {
+                "id": "34",
+                "Brand": "Taylor",
+                "name": "Taylor 314ce",
+                "price": "$1500",
+                "description": "A versatile acoustic guitar with a bright sound.",
+                "image": "acoustic/taylor.png",
+                "stocks":"10"
+            },
+            {
+                "id": "35",
+                "Brand": "D&D",
+                "name": "D&D1 ACCOUSTIC",
+                "price": "$1500",
+                "description": "A versatile acoustic guitar with a bright sound.",
+                "image": "acoustic/D&D1.png",
+                "stocks":"10"
+            },
+            {
+                "id": "36",
+                "Brand": "D&D",
+                "name": "D&D CONCORD",
+                "price": "$2500",
+                "description": "A top-tier acoustic guitar with a rich sound.",
+                "image": "acoustic/D&D CONCORD.png",
+                "stocks":"10"
+            },
+            {
+                "id": "37",
+                "Brand": "D&D",
+                "name": "D&D STARTER MA",
+                "price": "$1800",
+                "description": "A timeless acoustic guitar with a balanced tone.",
+                "image": "acoustic/D&D STARTER MA.png",
+                "stocks":"10"
+            },
+            {
+                "id": "38",
+                "Brand": "D&D",
+                "name": "D&D SLIM STEEL",
+                "price": "$1500",
+                "description": "A versatile acoustic guitar with a bright sound.",
+                "image": "acoustic/D&D SLIM STEEL.png",
+                "stocks":"10"
+            },
+            {
+                "id": "39",
+                "Brand": "Taylor",
+                "name": "Taylor 314ce",
+                "price": "$1500",
+                "description": "A versatile acoustic guitar with a bright sound.",
+                "image": "acoustic/Taylor T5.png",
+                "stocks":"10"
+            },
+            {
+                "id": "40",
+                "Brand": "Yamaha",
+                "name": "Yamaha F310",
+                "price": "$1500",
+                "description": "A versatile acoustic guitar with a bright sound.",
+                "image": "acoustic/Yamaha F310.png",
+                "stocks":"10"
+            }
+        ]
+    },    
+    {
+        "category": "Drums",
+        "products": [
+            {
+                "id": "41",
+                "Brand": "Yamaha",
+                "name": "PHX",
+                "price": "$500",
+                "description": "A great drum kit for beginners and intermediate players.",
+                "image": "drums/yamahaPHX.png",
+                "stocks":"10"
+            },
+            {
+                "id": "42",
+                "Brand": "Yamaha",
+                "name": "Recording Custom",
+                "price": "$400",
+                "description": "Compact drum kit ideal for small spaces.",
+                "image": "drums/Recording Custom.png",
+                "stocks":"10"
+            },
+            {
+                "id": "43",
+                "Brand": "Pearl",
+                "name": "masterMapple Gum",
+                "price": "$700",
+                "description": "A professional drum kit with great durability.",
+                "image": "drums/masterMapple Gum.png",
+                "stocks":"10"
+            },
+            {
+                "id": "44",
+                "Brand": "Pearl",
+                "name": "Masterpiece",
+                "price": "$700",
+                "description": "A professional drum kit with great durability.",
+                "image": "drums/marsterpiece.png",
+                "stocks":"10"
+            },
+            {
+                "id": "45",
+                "Brand": "Tama",
+                "name": "Stage star",
+                "price": "$500",
+                "description": "A great drum kit for beginners and intermediate players.",
+                "image": "drums/tamastagestar.png",
+                "stocks":"10"
+            },
+            {
+                "id": "46",
+                "Brand": "Tama",
+                "name": "star",
+                "price": "$400",
+                "description": "Compact drum kit ideal for small spaces.",
+                "image": "drums/tamastar.png",
+                "stocks":"10"
+            },
+            {
+                "id": "47",
+                "Brand": "Premier",
+                "name": "Revolution 22 (black)",
+                "price": "$700",
+                "description": "A professional drum kit with great durability.",
+                "image": "drums/Premier Revolution 22.png",
+                "stocks":"10"
+            },
+            {
+                "id": "48",
+                "Brand": "Premier",
+                "name": "Revolution 22 (White)",
+                "price": "$700",
+                "description": "A professional drum kit with great durability.",
+                "image": "drums/Premier Revolution white.png",
+                "stocks":"10"
+            }
+        ]
+    },    
+    {
+        "category": "Piano and Keyboard",
+            "products": [
+            {
+                "id": "53",
+                "Brand": "Yamaha",
+                "name": "Yamaha P-145B/Y/PA-150B Portable Digital Piano with Adaptor",
+                "image": "image/ymaha.png",
+                "price": "$1000",
+                "description": "The Yamaha P-145 is an entry-level model in the P Series that is ideal for beginning players. Equipped with only the essential tones and functions, this is a compact portable digital piano that offers the enjoyment of authentic performance.",
+                "stocks":"10"
+            },
+            {
+                "id": "54",
+                "Brand": "Yamaha",
+                "name": "Yamaha P-225B/Y/PA-150B Portable Digital Piano with Adaptor",
+                "image": "image/Yamaha P.png",
+                "price": "$899",
+                "description": "The Yamaha P-225 features a much shorter and thinner body design with a compact style. This model looks beautiful from any angle, and blends in well with any room. To achieve a smaller product chassis, we developed the new GHC (Graded Hammer Compact) keyboard (88 keys), which is built to uncompromising standards and offers the same weighted acoustic piano-like playing feel as the GHS (Graded Hammer Standard) keys used in previous models in the P Series.",
+                "stocks":"10"
+            },
+            {
+                "id": "55",
+                "Brand": "Nord",
+                "name": "Nord Stage 4 88-Note Fully Weighted Keyboard Synthesizer",
+                "image": "image/Nord Stage 4 88.png",
+                "price": "$6000",
+                "description": "The Nord Stage 4 features a brand new panel design with dedicated LED faders for each Layer, providing exceptional overview and flexibility when creating sounds and performing live.",
+                "stocks":"10"
+            },
+            {
+                "id": "56",
+                "Brand": "Nord",
+                "name": "Nord Piano 5 88-note Triple Sensor Keybed With Grand Weighted Action",
+                "image": "image/Nord Piano 5 88-note.png",
+                "price": "$5400",
+                "description": "The latest edition of our award-winning Piano series is equipped with dual piano engines, dual sample synths and twice the memory of the previous generation. With the combination of a premium Triple Sensor keybed and our exclusive Virtual Hammer Action Technology, the portable Nord Piano 5 delivers an exceptional playing experience.",
+                "stocks":"10"
+            },
+            {
+                "id": "57",
+                "Brand": "Roland",
+                "name": "Roland RD-2000 Stage Piano",
+                "image": "image/roland.png",
+                "price": "$3000",
+                "description": "The RD-2000 is a dream come true for the performing keyboardist. It features dual sound engines that power our best acoustic and electric pianos ever, plus the finest massive selection to top-quality ensemble sounds to cover any musical task, as well as two wave expansion slots for adding even more sounds. ",
+                "stocks":"10"
+            },
+            {
+                "id": "58",
+                "Brand": "Casio",
+                "name": "Casio AP-S450BK Celviano 88 Weighted Keys Black Digital Piano includes Adapter",
+                "image": "image/Casio AP-S450BK.png",
+                "price": "$1400",
+                "description": "Smart Hybrid Hammer Action Keyboard CELVIANO Edition (Key material: hybrid of wood & resin)",
+                "stocks":"10"
+            },
+            {
+                "id": "59",
+                "Brand": "Roland",
+                "name": "Roland RD-2000 EX Stage Piano",
+                "image": "image/Roland RD-2000.png",
+                "price": "$4300",
+                "description": "The RD-2000 EX delivers the ultimate RD experience, fusing Roland’s top piano technologies with a rich array of modern creative tools. This powerful and inspiring instrument is the most complete stage piano solution available, offering dual sound engines, two pre-installed V-Piano Expansions, premium playability, and advanced controller features for professional performers.",
+                "stocks":"10"
+            },
+            {
+                "id": "60",
+                "Brand": "Casio",
+                "name": "Casio AP-750BK Celviano 88 Weighted Keys Black Digital Piano includes Adapter and Piano Bench",
+                "image": "image/Casio AP-750BK.png",
+                "price": "$4490",
+                "description": "Smart Hybrid Hammer Action Keyboard CELVIANO Edition (Key material：hybrid of wood & resin)",
+                "stocks":"10"
+            },
+            {
+                "id": "61",
+                "Brand": "Nord",
+                "name": "Nord Stage 4 Compact 73-Note Semi Weighted Stage Keyboard Synthesizer",
+                "image": "image/nord1.png",
+                "price": "$9500",
+                "description": "The Nord Stage 4 features a brand new panel design with dedicated LED faders for each Layer, providing exceptional overview and flexibility when creating sounds and performing live. The new Preset Library is packed with inspiring ready-to-use Piano, Synth and Organ sounds for quick and smooth patch creation.",
+                "stocks":"10"
+            }
+        ]
+    }
+      
+]

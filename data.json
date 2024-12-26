@@ -1,0 +1,69 @@
+{
+    "heroCarousel": [
+      {
+        "image": "image/hero.png",
+        "title": "Discover Your Sound",
+        "description": "Find the perfect instrument for your unique style.",
+        "buttonText": "Shop Now",
+        "buttonLink": "#featured-products"
+      }
+    ],
+    "counterSection": [
+      {
+        "label": "Products Available",
+        "countId": "products-count",
+        "initialCount": 0
+      },
+      {
+        "label": "Happy Customers",
+        "countId": "happy-customers",
+        "initialCount": 0
+      },
+      {
+        "label": "Countries Served",
+        "countId": "countries",
+        "initialCount": 0
+      }
+    ],
+    "featuredProducts": [
+      {
+        "image": "tele/sampleprod.png",
+        "name": "Guitar Model A",
+        "price": "$149.99",
+        "buttonText": "New Product"
+      },
+      {
+        "image": "tele/APTELE6.png",
+        "name": "Guitar Model B",
+        "price": "$149.99",
+        "buttonText": "New Product"
+      },
+      {
+        "image": "tele/TELE10.png",
+        "name": "Guitar Model C",
+        "price": "$149.99",
+        "buttonText": "New Product"
+      }
+    ],
+    "categories": [
+      {
+        "image": "strat/ibanez.png",
+        "name": "Guitars"
+     
+      },
+      {
+        "image": "drums/EXPORT.png",
+        "name": "Drums"
+      },
+      {
+        "image": "image/nord1.png",
+        "name": "Nord Stage 4 "
+      }
+    ]
+  }
+  
+
+
+
+
+  

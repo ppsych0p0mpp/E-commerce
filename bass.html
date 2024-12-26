@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument/Bass Guitar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css file/products.css">
+    <link rel="stylesheet" href="css file/piano.css">
+    <link rel="stylesheet" href="css file/drums.css">
+    <link rel="stylesheet" href="css file/alert.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="image/LOGO.png" class="logo"></a>
+        
+        <form id="search-form" class="d-flex">
+            <input id="search-input" class="form-control me-2" type="search" placeholder="Search products" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#about-section">About Us</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+                <li><a href="#" id="authLink" data-bs-toggle="modal" data-bs-target="#authModal">Sign In/Sign Up</a></li>
+                <li><a href="#" id="logoutLink" style="display: none;" onclick="logout()">Logout</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="bi bi-cart4"></i></a>
+            </ul>
+        </div>
+    </section>
+
+   
+    <section id="hero">
+        <div class="container">
+            <ul id="navbar">
+                <li><a class="" href="telecaster.html">Telecaster</a></li>
+                <li><a href="stratocaster.html">Stratocaster</a></li>
+                <li><a href="acoustic.html">Acoustic</a></li>
+                <li><a href="bass.html">Bass guitar</a></li>
+                <li><a href="drums.html">Drums</a></li>
+                <li><a href="piano.html">Piano</a></li>
+            </ul>
+        </div>
+        
+    </section>
+
+</section>
+<!-- Filtering Sidebar -->
+<aside id="filter-sidebar">
+   <h3>Filter By</h3>
+
+   <!-- Price Filter -->
+   <div class="filter-section">
+   <h4>Price</h4>
+   <label for="min-price">Min:</label>
+   <input type="number" id="min-price" placeholder="0" min="0">
+   <label for="max-price">Max:</label>
+   <input type="number" id="max-price" placeholder="0" min="0">
+   </div>
+
+
+   <!-- Brand Filter -->
+   <div class="filter-section">
+   <h4>Brand</h4>
+   <select id="brand-filter">
+    <option value="">All Brands</option>
+       <option value="fender">Fender</option>
+       <option value="ibanez">Ibanez</option>
+       <option value="yamaha">Yamaha</option>
+       <option value="cort">Cort</option>
+       <option value="Global">Global</option>
+   </select>
+   </div>
+
+   <!-- Filter Button -->
+   <button id="apply-filters" class="btn btn-primary">Apply Filters</button>
+</aside>
+
+
+  <!-- Section for Bass Guitars -->
+  <section id="bass-guitars">
+    <div class="title">
+        <h2>BASS GUITARS</h2>
+    </div>
+    <div class="prod-container"></div>
+</section>
+
+     <!-- Sign In/Sign Up Modal -->
+     <div
+     class="modal fade"
+     id="authModal"
+     tabindex="-1"
+     aria-labelledby="authModalLabel"
+     aria-hidden="true"
+     >
+     <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="authModalLabel">Welcome Back!</h5>
+                 <button
+                     type="button"
+                     class="btn-close"
+                     data-bs-dismiss="modal"
+                     aria-label="Close"
+                 ></button>
+             </div>
+             <div class="modal-body">
+                 <!-- Tab Navigation -->
+                 <ul class="nav nav-pills mb-3 justify-content-center" id="authTabs" role="tablist">
+                     <li class="nav-item" role="presentation">
+                         <button
+                             class="nav-link active"
+                             id="signInTab"
+                             data-bs-toggle="pill"
+                             data-bs-target="#signInForm"
+                             type="button"
+                             role="tab"
+                             aria-controls="signInForm"
+                             aria-selected="true"
+                         >
+                             Sign In
+                         </button>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <button
+                             class="nav-link"
+                             id="signUpTab"
+                             data-bs-toggle="pill"
+                             data-bs-target="#signUpForm"
+                             type="button"
+                             role="tab"
+                             aria-controls="signUpForm"
+                             aria-selected="false"
+                         >
+                             Sign Up
+                         </button>
+                     </li>
+                 </ul>
+
+                 <!-- Tab Content -->
+                 <div class="tab-content" id="authTabsContent">
+                     <!-- Sign In Form -->
+                     <div
+                         class="tab-pane fade show active"
+                         id="signInForm"
+                         role="tabpanel"
+                         aria-labelledby="signInTab"
+                     >
+                         <form id="signIn" class="px-4">
+                             <div class="mb-3">
+                                 <label for="signInEmail" class="form-label">Email Address</label>
+                                 <input type="email" class="form-control" id="signInEmail" placeholder="Enter your email" required />
+                             </div>
+                             <div class="mb-3">
+                                 <label for="signInPassword" class="form-label">Password</label>
+                                 <input type="password" class="form-control" id="signInPassword" placeholder="Enter your password" required />
+                             </div>
+                             <div class="text-end mb-3">
+                                 <a href="#" class="small text-primary">Forgot password?</a>
+                             </div>
+                             <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                         </form>
+                     </div>
+
+                     <!-- Sign Up Form -->
+                     <div
+                         class="tab-pane fade"
+                         id="signUpForm"
+                         role="tabpanel"
+                         aria-labelledby="signUpTab"
+                     >
+                         <form id="signUp" class="px-4">
+                             <div class="mb-3">
+                                 <label for="signUpName" class="form-label">Full Name</label>
+                                 <input type="text" class="form-control" id="signUpName" placeholder="Enter your full name" required />
+                             </div>
+                             <div class="mb-3">
+                                 <label for="signUpEmail" class="form-label">Email Address</label>
+                                 <input type="email" class="form-control" id="signUpEmail" placeholder="Enter your email" required />
+                             </div>
+                             <div class="mb-3">
+                                 <label for="signUpPassword" class="form-label">Password</label>
+                                 <input type="password" class="form-control" id="signUpPassword" placeholder="Enter your password" required />
+                             </div>
+                             <button type="submit" class="btn btn-success w-100">Sign Up</button>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     </div>
+
+
+     <!-- cart modal -->
+     <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cart-items"></tbody>
+                    </table>
+                    <div class="text-end">
+                        <strong>Total: <span id="cart-total">$0.00</span></strong>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" onclick="goToCheckout()">
+                        Checkout
+                      </button>
+                </div>
+            </div>
+        </div>
+    </div>
+                      
+
+
+<!--footerrr-->
+<footer class="footer">
+    <div class="footer-container">
+        <div id="about-section" class="footer-section">
+            <h4>About Us</h4>
+            <p>Explore the finest musical instruments, from guitars to drums, pianos, and more. We provide quality products for all music enthusiasts.</p>
+        </div>
+
+  
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-media">
+          <a href="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="Youtube"><i class="bi bi-youtube"></i></a>
+          <a href="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+     
+  
+      <div id="contact-section" class="footer-section">
+        <h4>Contact Us</h4>
+        <p>123 Music Ave, Melody City, Country</p>
+        <p>Email: info@musicshop.com</p>
+        <p>Phone: +123 456 789</p>
+    </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 MusicShop. All rights reserved.</p>
+      </div>
+  </footer>
+
+                
+<!-- Modal for Product Details -->
+<div class="modal fade" id="productDetailsModal" tabindex="-1" aria-labelledby="productDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="productDetailsModalLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+                    <!-- Product Image -->
+                    <div class="col-md-6 text-center">
+                        <img id="modal-product-image" src="" alt="Product Image" class="img-fluid">
+                    </div>
+                    <!-- Product Info -->
+                    <div class="col-md-6">
+                        <h4 id="modal-product-name"></h4>
+                        <p id="modal-product-price" class="text-primary"></p>
+                        <p id="modal-product-description"></p>
+                        <p id="modal-product-brand"></p>
+                        <p id="modal-product-stocks"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="calert" class="custom-alert">
+    <div class="alert-content">
+        <span class="alert-message">You need to sign in first!</span>
+        <button id="closeAlert" class="alert-close-btn">OK</button>
+    </div>
+</div>
+<div id="customAlert" class="custom-alert">
+    <div class="alert-content">
+        <span id="alertMessage" class="alert-message">Message goes here!</span>
+        <button id="closeAlert" class="alert-close-btn">OK</button>
+    </div>
+</div>
+   <!-- Bootstrap JS Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script>
+    // Function to navigate to checkout.html
+    function goToCheckout() {
+      window.location.href = "checkout.html"; // Redirect to checkout.html
+    }
+</script>
+  <script src="jsfiles/prod.js"></script>
+  <script src="jsfiles/cart.js"></script>
+  <script src="jsfiles/prodDetials.js"></script>
+  <script src="jsfiles/signin.js"></script>
+  <script src="jsfiles/search.js"></script>
+</body>
+</html>

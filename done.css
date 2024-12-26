@@ -1,0 +1,37 @@
+body {
+  background-color: #f8f9fa;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h4 {
+  color: #343a40;
+}
+.order-summary-header {
+  background-color: #e6b800;
+  color: white;
+  padding: 15px;
+  border-radius: 8px 8px 0 0;
+}
+.thank-you-message {
+  color: #28a745;
+  font-weight: bold;
+}
+.order-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.back-to-home {
+  background-color: #e6b800;
+  border: none;
+  color: black;
+}
+.back-to-home:hover {
+  background-color: #28a745;
+}
+.gif-container {
+  text-align: center;
+  margin-top: 20px;
+}

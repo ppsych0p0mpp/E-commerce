@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Bootstrap 5 icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Admin page</title>
+
+   <link rel="stylesheet" href="css file/admin.css">
+     <link rel="stylesheet" href="css file/alert">
+  </head>
+  <body>
+    <div class="logout-btn-container">
+        <button class="logout-btn" onclick="Back()">Back</button>
+      </div>
+    <section class="p-3">
+
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-primary newUser" data-bs-toggle="modal" data-bs-target="#userForm">New Product <i class="bi bi-bag-fill"></i></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-striped table-hover mt-3 text-center table-bordered">
+
+                    <thead>
+                        <tr>
+                            <th>Product N.</th>
+                            <th>Image</th>
+                            <th>Brand</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Stocks</th>
+                            <th>Date Added</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="data"></tbody>
+
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--Modal Form-->
+    <div class="modal fade" id="userForm">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Fill the Form</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form action="#" id="myForm">
+
+                        <div class="card imgholder">
+                            <label for="imgInput" class="upload">
+                                <input type="file" name="" id="imgInput">
+                                <i class="bi bi-plus-circle-dotted"></i>
+                            </label>
+                            <img src="./image/live-music.png" alt="" width="200" height="200" class="img">
+                        </div>
+
+                        <div class="inputField">
+                            <div>
+                                <label for="brand">Brand:</label>
+                                <input type="text" name="" id="brand" required>
+                            </div>
+                            <div>
+                                <label for="name">Name:</label>
+                                <input type="text" name="" id="name" required>
+                            </div>
+                            <div>
+                                <label for="price">Price:</label>
+                                <input type="number" name="" id="price" required>
+                            </div>
+                            <div>
+                                <label for="stocks">Stocks:</label>
+                                <input type="number" name="" id="stocks" required>
+                            </div>
+                            <div>
+                                <label for="sDate">Date Added:</label>
+                                <input type="date" name="" id="sDate" required>
+                            
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" form="myForm" class="btn btn-primary submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Read Data Modal-->
+    
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<div id="calert" class="custom-alert">
+    <div class="alert-content">
+        <span class="alert-message">You need to sign in first!</span>
+        <button id="closeAlert" class="alert-close-btn">OK</button>
+    </div>
+</div>
+<div id="customAlert" class="custom-alert">
+    <div class="alert-content">
+        <span id="alertMessage" class="alert-message">Message goes here!</span>
+        <button id="closeAlert" class="alert-close-btn">OK</button>
+    </div>
+</div>
+    <script src="jsfiles/admin.js"></script>
+    <script>
+        // Logout function
+        function Back() {
+          
+          // Redirect to the index page
+          window.location.href = 'index.html'; // Redirects to the homepage
+        }
+      </script>
+  </body>
+</html>
