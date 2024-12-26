@@ -1,0 +1,57 @@
+
+  /* Style for the Modal Header */
+  #authModalLabel {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5a5a5a;
+  }
+
+  /* Style for Tabs */
+  .nav-pills .nav-link {
+    border-radius: 50px;
+    font-weight: 600;
+    color: #5a5a5a;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  /* Input Field Style */
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+  }
+
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  /* Button Style */
+  .btn-primary,
+  .btn-success {
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  .btn-success:hover {
+    background-color: #218838;
+  }
+
+  /* Forgot Password Link */
+  .text-primary:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+  

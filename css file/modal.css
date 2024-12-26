@@ -1,0 +1,17 @@
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.modal-body h4 {
+  margin-top: 10px;
+}
+
+.modal-body p {
+  margin: 5px 0;
+}
+
+.modal-footer button {
+  min-width: 100px;
+}

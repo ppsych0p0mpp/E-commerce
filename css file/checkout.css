@@ -1,0 +1,226 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+    margin: 0;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  header {
+    background-color: #222;
+    color: #ffcc00;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  button {
+    font-size: 1rem;
+  }
+  
+  /*main */
+  .product-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .product-row img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 100px;
+  }
+  
+  .product-row .flex-grow-1 {
+    flex-grow: 1; /* This ensures the product name takes up the available space */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis if the name is too long */
+  }
+  
+  .product-row .price {
+    margin-left: 15px;
+  }
+  
+  .product-row button {
+    margin-left: 15px;
+  }
+  
+  /* <!----footerrr-----> */
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 150px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section form {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #bbb;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #ffcc00;
+  }
+  
+  .footer-section form {
+    display: flex;
+    gap: 10px;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin: top 20px;
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+
+  
+/* <!----footerrr-----> */
+
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+  }
+  
+  .footer-section p, .footer-section ul, .footer-section form {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #bbb;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #ffcc00;
+  }
+  
+  .footer-section form {
+    display: flex;
+    gap: 10px;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .btn {
+    margin-top: 25px;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background-color: black;
+    color: #ffcc00;
+  }

@@ -1,0 +1,87 @@
+
+/* Drums Collection Section */
+#drums {
+    padding: 40px 20px;
+    background-color: #000000;
+    text-align: center;
+}
+
+#drums .title h2 {
+    font-size: 30px;
+    color: #fff1f1;
+    margin-bottom: 30px;
+}
+
+/* Drums Container */
+.drums-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.prod-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.10s ease;
+}
+
+/* Hover Effect for Image */
+.prod-item:hover img {
+    transform: scale(1.1);
+  }
+
+.prod-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.prod-details h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.prod-price {
+    font-size: 1rem;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.prod-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0 15px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color:#000000;
+    color:#ffcc00;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 992px) {
+    .drums-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .drums-container {
+        grid-template-columns: 1fr;
+    }
+}

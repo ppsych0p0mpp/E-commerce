@@ -1,0 +1,86 @@
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* Container for all products */
+#piano-and-keyboard {
+    padding: 40px 20px;
+    background-color: #ff9900;
+}
+
+/* Container for each product item */
+#piano-and-keyboard .product-container {
+    display: flex;
+    flex-direction: column; /* Products will stack vertically */
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Styling for each product item */
+.product-item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(223, 218, 218);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the product image */
+.product-image {
+    flex: 1;
+    width: 300px; /* Set a fixed width for the image section */
+    margin-right: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling for product details */
+.product-details {
+    flex: 2;
+}
+
+/* Product name */
+.product-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Product price */
+.product-price {
+    font-size: 1.2rem;
+    color: #088178;
+    margin-top: 10px;
+}
+
+/* Product description */
+.product-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Add to Cart button */
+.add-to-cart {
+    color: #000000;
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #000000;
+    color: #ffcc00;
+}
